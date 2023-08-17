@@ -46,8 +46,8 @@ public class ImageOperation {
         f.setLayout(new FlowLayout());
         b.addActionListener(e->{
             String text=tf.getText();
-            int temp=Integer.parseInt(text);
-            operate(temp);
+            int key=Integer.parseInt(text);
+            operate(key);
         });
         f.add(b);
         f.add(tf);
